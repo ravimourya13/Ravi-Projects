@@ -1,0 +1,61 @@
+<%- include('partials/header') %>
+
+<!-- <div class="createform">
+  <form action='/blogs' method='POST'>
+    <input type='text' name='title' placeholder='Title' required>
+    <input type='url' name='imageUrl' placeholder='Image URL' required>
+    <textarea name='content' placeholder='Content' required></textarea>
+    <button type='submit'>Create</button>
+  </form>
+</div> -->
+
+<div class="container">
+  <div class="row justify-content-center align-items-center g-2">
+    <div class="col mt-3">
+      <div class="card">
+        <div class="card-body">
+          <center><h2>Create Blog</h2></center>
+          <form action="/blogs" method="POST">
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                name="title"
+                id="formId1"
+                placeholder="Title"
+                required
+              />
+              <label for="formId1">Title</label>
+            </div>
+
+            <div class="form-floating mb-3">
+              <input
+                type="url"
+                class="form-control"
+                name="imageUrl"
+                id="formId1"
+                placeholder="Image Url"
+                required
+              />
+              <label for="formId1">Image url</label>
+            </div>
+
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                name="content"
+                id="formId1"
+                placeholder="Content"
+              />
+              <label for="formId1">Content</label>
+            </div>
+            <center>
+              <button type="submit" class="btn btn-dark">Create</button>
+            </center>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
