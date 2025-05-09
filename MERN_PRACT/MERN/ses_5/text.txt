@@ -1,0 +1,6 @@
+form hadnling
+why curly braces are used while importing
+useEffect
+
+component life cycle =>
+mount update unmount
