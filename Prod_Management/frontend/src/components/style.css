@@ -1,0 +1,21 @@
+.h2{
+    background-color: rgb(30, 30, 35);
+    text-align: center;
+    position: relative;
+    
+}
+
+table{
+    border: 2px solid;
+    border-collapse: separate;
+}
+th,td{
+    border: 1px solid;
+}
+
+.add-product-btn:hover {
+  background-color: #343a40 !important;
+  color: #ffc107 !important;
+  transform: scale(1.05);
+  transition: all 0.2s;
+}
